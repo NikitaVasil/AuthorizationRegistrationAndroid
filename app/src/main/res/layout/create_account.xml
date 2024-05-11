@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary_dark_emerald"
+
+    tools:context=".CreateAccount">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="@color/primary_light_blue"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="@string/create_account"/>
+
+    <EditText
+        android:id="@+id/user_login"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/primary_light_blue"
+        android:textColorHint="@color/primary_hint"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="@string/enter_your_username"/>
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/primary_light_blue"
+        android:textColorHint="@color/primary_hint"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="@string/enter_your_email"/>
+
+    <EditText
+        android:id="@+id/user_pass"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/primary_light_blue"
+        android:textColorHint="@color/primary_hint"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="@string/enter_your_password"/>
+
+    <Button
+        android:id="@+id/button_reg"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary_text_button"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/primary_coral"
+        android:text="Регистрация" />
+
+</LinearLayout>
